@@ -7,7 +7,7 @@ export default function Weather(props) {
       <div className="container-fluid">
         <div className="row text-center">
           <div className="col-md-6 pt-2 pb-2">
-            <h1>{props.city}</h1>
+            <h2>{props.city}</h2>
 
             <h3>
               <img src={props.icon} alt="weather icon" width="80" />{" "}

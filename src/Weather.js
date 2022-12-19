@@ -5,15 +5,15 @@ export default function Weather() {
   return (
     <div className="container">
       <div className="row justify-content-center">
-        <div className="col-6 shadow-sm">
+        <div className="col-6 pt-2 pb-2">
           <h1>Marbella</h1>
           <h2>Wednesday 16:00</h2>
-
           <h3> ⛅ 13°C | °F</h3>
-          <h4>Partly cloudy, feels like 12 °C</h4>
-          <h5>Humidity: 20% Wind speed: 3 m/s</h5>
+          <h4>Partly cloudy</h4>
+          <h5>Humidity: 20%</h5>
+          <h5>Wind speed: 3 m/s</h5>
         </div>
-        <div className="col-6 shadow-sm" id="forecast">
+        <div className="col-6 pt-2 pb-2" id="forecast">
           <Forecast day="Monday" temperature={13} icon="⛅" />
           <Forecast day="Tuesday" temperature={15} icon="⛅" />
           <Forecast day="Wednesday" temperature={12} icon="⛅" />

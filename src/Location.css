@@ -1,0 +1,14 @@
+button {
+  display: block;
+  margin: 0 auto;
+  color: #475053;
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 8px 10px;
+  transition: ease-in-out 30ms all;
+}
+button:hover {
+  background-color: #6c757d;
+  color: white;
+}

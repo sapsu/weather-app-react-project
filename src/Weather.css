@@ -1,0 +1,43 @@
+h1 {
+  color: #475053;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+h2 {
+  margin-top: 15px;
+  color: #475053;
+  font-size: 13px;
+  text-align: center;
+}
+h3,
+h4,
+h5 {
+  font-size: 13px;
+  color: #475053;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: ease-in-out 30ms all;
+}
+.col-6 {
+  border: 1px solid #f0fbff;
+  border-radius: 0px;
+  background-color: white;
+}
+.col-sm-6,
+.col-sm-4,
+.col-sm-3 {
+  font-size: 13px;
+  color: #475053;
+}
+.row:hover {
+  background-color: rgba(172, 220, 238, 0.3);
+  border-radius: 3px;
+}

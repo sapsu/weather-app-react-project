@@ -9,8 +9,9 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <Search />
       <Location />
+      <Search />
+
       <Weather />
       <Footer />
     </div>

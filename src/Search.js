@@ -30,7 +30,7 @@ export default function Search() {
   return (
     <div className="Search">
       <form
-        className="input-group mb-3 shadow-sm rounded"
+        className="input-group mb-3 rounded"
         id="city-search-form"
         onSubmit={handleSubmit}
       >

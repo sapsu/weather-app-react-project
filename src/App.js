@@ -11,7 +11,6 @@ export default function App() {
       <Header />
       <Location />
       <Search />
-
       <Weather />
       <Footer />
     </div>

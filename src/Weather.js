@@ -10,7 +10,7 @@ export default function Weather(props) {
             <h2>{props.city}</h2>
 
             <h3>
-              <img src={props.icon} alt="weather icon" width="80" />{" "}
+              <img src={props.icon} alt="weather icon" width="60" />{" "}
               {props.temperature} | °F
             </h3>
             <h4>{props.description}</h4>

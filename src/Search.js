@@ -10,6 +10,7 @@ export default function Search() {
   const [humidity, setHumidity] = useState("");
   const [wind, setWind] = useState("");
   const [icon, setIcon] = useState("");
+
   function updateCity(event) {
     setCity(event.target.value);
   }
@@ -20,7 +21,7 @@ export default function Search() {
   }
   function handleResponse(response) {
     setTemperature(`${Math.round(response.data.main.temp)} °C`);
-    setDescription(`Description: ${response.data.weather[0].description}`);
+    setDescription(`${response.data.weather[0].description}`);
     setHumidity(`Humidity: ${response.data.main.humidity} %`);
     setWind(`Wind: ${response.data.wind.speed} km/h`);
     setIcon(

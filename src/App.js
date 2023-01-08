@@ -8,11 +8,13 @@ import Footer from "./Footer";
 export default function App() {
   return (
     <div className="App">
-      <Header />
-      <Location />
-      <Search />
-      <Weather />
-      <Footer />
+      <div className="container">
+        <Header />
+        <Location />
+        <Search />
+        <Weather />
+        <Footer />
+      </div>
     </div>
   );
 }

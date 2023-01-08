@@ -1,6 +1,6 @@
 h2 {
-  margin-top: 15px;
-  color: #475053;
+  margin-top: 30px;
+  color: white;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -9,15 +9,16 @@ h3,
 h4,
 h5 {
   font-size: 15px;
-  color: #475053;
+  color: white;
   margin-top: 15px;
   margin-bottom: 20px;
   text-align: center;
 }
 .container-fluid {
   max-width: 85%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .row {
@@ -29,5 +30,5 @@ h5 {
 .col-sm-4,
 .col-sm-3 {
   font-size: 15px;
-  color: #475053;
+  color: white;
 }

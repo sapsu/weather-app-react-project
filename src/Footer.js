@@ -1,9 +1,9 @@
 import React from "react";
-import beachbottom from "./images/beachbottom.jpg";
+
 import "./Footer.css";
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer mt-4">
       <p>
         <a
           href="https://github.com/sapsu/weather-app-react-project"
@@ -14,7 +14,6 @@ export default function Footer() {
         </a>
         <span id="name">by Saana Ahonen</span>
       </p>
-      <img src={beachbottom} id="footer-image" alt="beachview bottom" />
     </div>
   );
 }

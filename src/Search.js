@@ -31,7 +31,7 @@ export default function Search() {
   return (
     <div className="Search">
       <form
-        className="input-group mb-3 rounded"
+        className="input-group mt-5 mb-4 rounded"
         id="city-search-form"
         onSubmit={handleSubmit}
       >
@@ -44,13 +44,17 @@ export default function Search() {
           id="city-search-input"
           onChange={updateCity}
         />
+
         <input
           type="submit"
-          className="btn btn-outline-secondary"
+          className="btn btn-primary"
           id="button-addon2"
           value="Search"
         />
       </form>
+      <button className="btn btn-primary shadow-sm rounded" id="location">
+        Current location
+      </button>
       <Weather
         temperature={temperature}
         description={description}

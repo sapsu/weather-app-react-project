@@ -4,5 +4,6 @@
   border-radius: 5px;
   max-width: 550px;
   margin: 0 auto;
-  background-color: #acdcee;
+  background-image: url("./images/horizonsmaller.jpg");
+  background-size: cover;
 }

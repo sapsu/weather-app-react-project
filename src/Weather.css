@@ -1,10 +1,9 @@
-h2 {
-  margin-top: 30px;
+h1 {
   color: white;
-  font-size: 15px;
   font-weight: bold;
   text-align: center;
 }
+h2,
 h3,
 h4,
 h5 {
@@ -15,20 +14,13 @@ h5 {
   text-align: center;
 }
 .container-fluid {
-  max-width: 85%;
+  max-width: 97%;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   margin-top: 20px;
+  padding-top: 20px;
 }
-
-.row {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.col-sm-6,
-.col-sm-4,
-.col-sm-3 {
-  font-size: 15px;
+li {
   color: white;
+  list-style: none;
 }

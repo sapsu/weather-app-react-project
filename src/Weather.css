@@ -34,3 +34,7 @@ canvas {
   margin-top: 10px;
   margin-right: 10px;
 }
+
+#time {
+  font-size: 20px;
+}

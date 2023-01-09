@@ -38,3 +38,6 @@ canvas {
 #time {
   font-size: 20px;
 }
+.temperaturelink {
+  text-decoration: none;
+}

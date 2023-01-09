@@ -12,7 +12,6 @@ export default function WeatherInfo(props) {
         <h2 id="time">
           <FormattedDate date={props.data.date} />
         </h2>
-
         <h2>
           <WeatherIcon code={props.data.icon} />{" "}
           <WeatherTemperature celsius={props.data.temperature} />
@@ -22,7 +21,7 @@ export default function WeatherInfo(props) {
         <h5>Wind: {Math.round(props.data.wind)} km/h</h5>
       </div>
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mt-3">
         <div className="col">
           <ul>
             <li>Mon</li>

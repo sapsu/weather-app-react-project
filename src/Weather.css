@@ -24,3 +24,8 @@ li {
   color: white;
   list-style: none;
 }
+
+#location {
+  display: block;
+  margin: 0 auto;
+}

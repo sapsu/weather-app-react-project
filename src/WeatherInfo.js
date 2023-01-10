@@ -17,8 +17,8 @@ export default function WeatherInfo(props) {
           <WeatherTemperature celsius={props.data.temperature} />
         </h2>
 
-        <div className="row mt-2 text-center">
-          <div className="col text-start ms-5">
+        <div className="row justify-content-center mt-3">
+          <div className="col-6 text-end pe-3">
             <h5 className="text-capitalize">{props.data.description}</h5>
 
             <h5>Humidity: {props.data.humidity} %</h5>
@@ -26,7 +26,7 @@ export default function WeatherInfo(props) {
               Sunrise: <FormattedHours date={props.data.sunrise} />
             </h5>
           </div>
-          <div className="col text-start">
+          <div className="col-6 text-start ps-4">
             <h5>Feels like: {Math.round(props.data.feels)} °C</h5>
             <h5>Wind: {Math.round(props.data.wind)} km/h</h5>
 

@@ -31,3 +31,16 @@
 .temperaturelink {
   text-decoration: none;
 }
+@media (max-width: 900px) {
+  .WeatherInfo h1,
+  h2 {
+    font-size: 20px;
+  }
+  .WeatherInfo h5 {
+    font-size: 15px;
+  }
+  .WeatherInfo .col {
+    padding: 10px;
+    margin-left: 5px;
+  }
+}

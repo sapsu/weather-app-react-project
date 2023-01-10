@@ -18,7 +18,7 @@ export default function WeatherForecast(props) {
     return (
       <div className="WeatherForecast row justify-content-center mt-3 pb-3">
         {forecast.map(function (dailyForecast, index) {
-          if (index < 6) {
+          if (index < 5) {
             return (
               <div className="col text-center" key={index}>
                 <WeatherForecastDay data={dailyForecast} />

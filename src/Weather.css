@@ -6,18 +6,22 @@
   margin-top: 20px;
   padding-top: 20px;
 }
-li {
+.WeatherForecast li {
   list-style: none;
+}
+.WeatherForecast canvas {
+  margin-top: 10px;
+}
+.WeatherForecast ul {
+  padding: 0;
+}
+.WeatherForecast .max-temp {
+  margin-right: 5px;
 }
 
 #location {
   display: block;
   margin: 0 auto;
-}
-
-canvas {
-  margin-top: 10px;
-  margin-right: 10px;
 }
 
 #time {

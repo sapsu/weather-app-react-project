@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -62,7 +63,10 @@ export default function Weather(props) {
         <button className="btn btn-primary shadow-sm rounded" id="location">
           Current location
         </button>
-        <WeatherInfo data={weatherData} />
+        <div className="container-fluid">
+          <WeatherInfo data={weatherData} />
+          <WeatherForecast />
+        </div>
       </div>
     );
   } else {

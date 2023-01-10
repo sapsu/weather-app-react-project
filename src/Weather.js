@@ -41,7 +41,7 @@ export default function Weather(props) {
       <div className="Weather">
         <form
           onSubmit={handleSubmit}
-          className="input-group mt-5 mb-4 rounded"
+          className="input-group mt-5 mb-5 rounded"
           id="city-search-form"
         >
           <input
@@ -61,9 +61,7 @@ export default function Weather(props) {
             value="Search"
           />
         </form>
-        <button className="btn btn-primary shadow-sm rounded" id="location">
-          Current location
-        </button>
+
         <div className="container-fluid">
           <WeatherInfo data={weatherData} />
           <WeatherForecast coordinates={weatherData.coordinates} />

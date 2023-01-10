@@ -10,9 +10,22 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          Open source code
+          Open-source
         </a>
-        <span id="name">by Saana Ahonen</span>
+        <span id="name">
+          code by{" "}
+          <a
+            href="https://jovial-strudel-724475.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Saana Ahonen
+          </a>
+          , hosted on{" "}
+          <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
+            Netlify
+          </a>
+        </span>
       </p>
     </div>
   );

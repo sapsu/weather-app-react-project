@@ -51,6 +51,7 @@ export default function Weather(props) {
             aria-label="Search for a city"
             aria-describedby="button-addon2"
             id="city-search-input"
+            autocomplete="off"
             onChange={handleCityChange}
           />
 

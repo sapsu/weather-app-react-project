@@ -12,9 +12,15 @@ export default function WeatherForecast(props) {
   if (loaded) {
     return (
       <div className="WeatherForecast row justify-content-center mt-3 pb-3">
-        <div className="col text-center">
-          <WeatherForecastDay data={forecast[0]} />
-        </div>
+        {forecast.map(function (dailyForecast, index) {
+          if (index < 6) {
+            return (
+              <div className="col text-center" key={index}>
+                <WeatherForecastDay data={dailyForecast} />
+              </div>
+            );
+          }
+        })}
       </div>
     );
   } else {

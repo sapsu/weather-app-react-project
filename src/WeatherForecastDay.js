@@ -28,7 +28,7 @@ export default function WeatherForecastDay(props) {
         <span className="min-temp">{minTemperature()}</span>
       </li>
       <li>
-        <WeatherIcon code={props.data.weather[0].icon} size={40} />
+        <WeatherIcon code={props.data.weather[0].icon} size={38} />
       </li>
     </ul>
   );

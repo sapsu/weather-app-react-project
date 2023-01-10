@@ -20,6 +20,7 @@ export default function WeatherForecast(props) {
               </div>
             );
           }
+          return null;
         })}
       </div>
     );

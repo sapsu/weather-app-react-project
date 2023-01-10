@@ -26,7 +26,7 @@ export default function WeatherTemperature(props) {
       <div className="WeatherTemperature">
         {Math.round(fahrenheit)}{" "}
         <a href="/" className="temperaturelink" onClick={convertToCelsius}>
-          °C
+          °C{" "}
         </a>
         | °F
       </div>

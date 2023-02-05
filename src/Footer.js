@@ -15,7 +15,7 @@ export default function Footer() {
         <span id="name">
           code by{" "}
           <a
-            href="https://jovial-strudel-724475.netlify.app/"
+            href="https://saana-ahonen.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
